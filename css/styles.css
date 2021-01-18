@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  font-family: 'Abhaya Libre', serif;
+  text-align: center;
+  color: #40514E;
+}
+
+h1 {
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: 'Liu Jian Mao Cao', cursive;
+  font-size: 5.625rem;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: #11999E;
+}
+
+hr {
+  color: #EAF6F6;
+  border-style: none;
+  border-top-style: dotted;
+  width: 8%;
+  border-width: 8px;
+  margin: 100px auto ;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+
+/***********************CLASSES*************************/
+.top-container {
+  background-color: #f7dad9;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.profile-text {
+  width: 50% ;
+  margin: auto ;
+}
+
+.skills {
+  margin: 50px auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 150px auto;
+  text-align: left;
+}
+
+.skill-image {
+  width: 25%;
+}
+
+.coding-image {
+  float: left;
+  margin-right: 30px;
+}
+
+.language-image {
+  float: right;
+  margin-left: 30px;
+}
+
+.gear-image {
+  float: left;
+  margin-right: 30px;
+}
+
+.contact-me {
+  margin: 50px auto;
+}
+
+.contact-me-msg {
+  width:40%;
+  margin: 40px auto 60px;
+}
+
+.bottom-container {
+  background-color: #f7dad9;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.footer-link {
+  color: #11999E;
+  font-family: 'Open Sans', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
+}
+
+.copyright {
+  color: grey;
+  font-size: 0.75rem;
+  padding: 20px 0 0;
+  margin: 0;
+}
+
+.BUTTON_XRC {
+   -webkit-border-radius: 19px;
+   -moz-border-radius: 19px;
+   border-radius: 19px;
+   height: 20px;
+   line-height: 20px;
+   color: #FFFFFF;
+   font-family: Open Sans;
+   width: 130px;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 18px;
+   background-color: #11999E;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_XRC:hover {
+   background: #8FBEBF;
+   border: solid #8FBEBF 0;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
